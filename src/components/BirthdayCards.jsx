@@ -1,18 +1,9 @@
-import { useEffect } from "react";
-import { useState } from "react"
+import { useState } from "react";
+import user from "../db";
 import "../styles/style.css"
 
 function BirthdayCards(){
-    const [api,setApi] = useState([]);
-    
-    useEffect(()=>{
-        fetch("http://localhost:2027/user")
-        .then(res=>res.json())
-        .then(res=>{
-            setApi(res);
-        }).catch((error) => console.error('Error fetching data:', error));
-        // console.log("useEffect is called");
-    },[])
+    const [api,setApi] = useState(user);
     return(
         <>
         <div id="cardapi-container">

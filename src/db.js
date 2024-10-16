@@ -1,5 +1,4 @@
-{
-    "user": [
+const user = [
       {
          "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Prabhas_by_Gage_Skidmore.jpg/800px-Prabhas_by_Gage_Skidmore.jpg",
          "name":"Prabhas",
@@ -49,4 +48,5 @@
          "id":"9"
       }
     ]
-  }
+    
+export default user;

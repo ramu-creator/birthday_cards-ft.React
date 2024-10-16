@@ -20,7 +20,7 @@
     overflow-y: auto;
     border: transparent solid;
     box-shadow: -1px -1px 15px #00d4ff;
-    width: 35%;
+    width: 40%;
 }
 
 /* Individual card styling */
@@ -99,7 +99,7 @@
     font-size: 36px;
     color: #333;
     text-align: center;
-    margin:10px 0 20px 590px;
+    margin:10px 0 20px 460px;
     letter-spacing: 3px;
     text-transform: uppercase;
     position: relative;
